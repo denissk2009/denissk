@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="урок 1, основы, html, css">
+	<meta name="description" content="короткое описание контента">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+	<title>Урок2</title>
+	<link rel="stylesheet" href="путь до стилей">
+	<script src="путь до скрипта"></script>
+    <script>
+   document.createElement('aside');
+   document.createElement('article');
+    </script>
+    <style>
+   aside {
+    background: #f0f0f0;
+    padding: 10px;
+    width: 140px;
+    float: right;
+   }
+    article {
+    background: #f0f0f0;
+    padding: 10px;
+    width: 240px;
+    margin-right: 240px;
+    display: block;
+    top: 5px;
+   }
+   figure {
+	 	    background: #5f6a72; /* Цвет фона */
+	 	    padding: 10px; /* Поля вокруг */
+	 	    display: block; /* Блочный элемент */
+	 	    width: 240px; 
+	 	    float: left; /* Блоки выстраиваются по горизонтали */
+	 	    margin: 0 10px 10px 0; /* Отступы */
+	 	    text-align: center;
+	 	     }
+        figcaption {
+                     color: #fff;
+                     }
+    body { 
+     font-family: Arial, sans-serif; /* Рубленый шрифт */ 
+    }
+    .letter { 
+     color: red; /* Красный цвет символов */ 
+     font-size: 200%; /* Размер шрифта в процентах */ 
+     font-family: serif; /* Шрифт с засечками */ 
+     position: relative; /* Относительное позиционирование */ 
+     top: 5px; /* Сдвиг сверху */ 
+    }
+
+    </style>
+</head>
+<body onload="alert ('Приветствуем на нашей странице');">
+	<img src="images/thumb3.jpg" alt="Использование тэгов для оформления текста">
+	<a href="index.html"></a>
+
+<!-- Шапка -->
+<header>
+	<h1>ТЕМА</h1>
+</header>
+	<q>Использование тэгов для оформления текста</q>
+	<br>
+	<br>
+	<br>
+	<hr>
+	<h2><a href="http://htmlbook.ru/">Ссылка на сам сайт</a></h2>
+	<!--Экран 1-->
+	<aside>
+           <p>header, footer, nav article</p>
+           <p>{display: block;} Блочные тэги</p> 
+	</aside>
+	<article>
+   Расположение текста на странице
+    </article>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <pre>Итак, начнем      ...</pre>
+
+	<main>Главное уникальное содержание контента</main>
+	<nav>
+		<li><a href="http://htmlbook.ru/html/a/href">Пункт 1</a></li>
+	</nav>
+		<nav class="">
+		<li><a href="http://htmlbook.ru/html/nav">Пункт 2</a></li>
+		</nav>
+		<nav id="">
+		<li><a href="">Пункт 3</a></li>
+		</nav>
+		<nav>
+		<li><a href="">Пункт 4</a></li>
+	</nav>
+
+	 <article>
+	 	<section class="screenone">
+	 		 <div>
+	 	<p>разделение статей на странице</p>
+	 	<h1>Статья 1</h1>
+	 	 </div>
+	 </article>
+	 <article>
+	 	<p>разделение статей на странице</p>
+	 	<h1>Статья 2</h1>
+	 </article>
+	 <article>
+	 	<figure>
+	 	<p><img src="images/thumb1.jpg" alt="">html</p>
+	 	<figcaption>css</figcaption>
+	 	</figure>
+	 	<figure>
+	 	<p><img src="images/thumb2.jpg" alt="">css</p>
+	 	<figcaption>html</figcaption>
+	 	</figure>
+	 </article>
+	<!--Конец Экран 1-->
+     <hgroup>
+     <h1 style="font-size:70px; width:400px;color: blue">Базовый HTML CSS. Поток 2 </h1>	
+     <p id="one"  class="reds"> текст <br>какой-то</p>
+     <p><img src="images/2.jpg" alt="Вид заголовка в IE" width="400" height="101"></p>
+     <h2 title="Тут написан текст 2">
+	текст 3 </h2>
+     <h3 title="Тут написан текст 2" hidden=""></h3>
+     <h4 id="buy" class="name">текст 4</h4>
+     <p color="red">Тут написан текст 2</p>
+     <select size="5"></select>
+     <h5 align="center"><font color="red" size="47">Тут написан текст 3</font></h5>
+     </hgroup>
+     <!--Экран 2-->
+      <article>
+	 	<section class="screentwo">
+	 		 <div>
+	 	<p>разделение статей на странице</p>
+	 	<h1>Статья 3</h1>
+	 	 </div>
+	 </article>
+	 <article>
+	 	<p>разделение статей на странице</p>
+	 	<h1>Статья 4</h1>
+	 </article>
+	 <!--Конец Экран 2-->
+<!-- Конец Шапки -->
+<button onclick="alert ('Привет');">Кнопка 1</button>
+<br>
+<button onmouseover="alert ('Привет');">Кнопка 2</button>
+<br>
+<button onload="alert ('Привет');">Кнопка 3</button>
+<br>
+<input type="checkbox" checked>
+<input type="text" value="Подтвердить" readonly required>
+<input type="text" value="Печатать здесь">
+<!--Блочные элементы-->
+<section class="page3">
+<div style="width: 400px; float: left;">
+	блочный элемент
+    блочный элемент
+    блочный элемент
+ </div>
+ <p>Абзац1 <br> продолжение Абзаца1</p>
+ <h1>Заголовок1</h1>
+ <h2>Заголовок1</h2>
+ <h3>Заголовок1</h3>
+ <h4>Заголовок1</h4>
+ <q>Берет текст автоматически в кавычки</q>
+ <hr>Горизонтальная разделительная линия
+ <pre>Как отформотируете текст    так и отобразится с пробелами и            переносами</pre>
+ <p><strong>Жирность курсива</strong></p>
+       <ul type="disk">
+       	    <li type="square">
+       	    	Маркированные списки1
+       	    	Пункт1
+       	    </li>
+       	</ul>
+       	<ul type="circle">
+       	    <li>
+       	    	Маркированные списки2
+       	    	Пункт2
+       	    </li>
+       	</ul>
+       	<ul type="square">
+       	    <li>
+       	    	Маркированные списки3
+       	    	Пункт3
+       	    </li>
+       	</ul>
+       	<ol type="A">
+       	    <li>
+       	    	Нумерованные списки1
+       	    	Пункт1
+       	    </li>
+       	    <li type="A">
+       	    	Нумерованные списки2
+       	    	Пункт2
+       	    </li>
+       	</ol>
+       	<ol>
+       	    <li>
+       	    	Нумерованные списки1
+       	    	Пункт1
+       	    </li>
+       	</ol>
+       	<ol start="3">
+       	    <li>
+       	    	Нумерованные списки1
+       	    	Пункт1
+       	    </li>
+       	    <li>
+       	    	Нумерованные списки2
+       	    	Пункт2
+       	    </li>
+       	</ol>
+     <ol>
+       	    <li>
+       	    	Нумерованные списки1
+       	    	Пункт1
+       	    </li>
+       	    <li type="A">
+       	    	Нумерованные списки2
+       	    	Пункт2
+       	    </li>
+       	</ol>
+       	<ol start="2" type="A" reversed="">
+       	    <li>
+       	    	Нумерованные списки1
+       	    	Пункт1
+       	    </li>
+       	    <li type="A">
+       	    	Нумерованные списки2
+       	    	Пункт2
+       	    </li>
+       	</ol>
+<ol type="A">
+	<li> Элемент верхнего уровня </li>
+<ul type="circle">
+	<li>Подчиненный элемент1</li>
+	<li>Подчиненный элемент2</li>
+</ul>
+<li>Элемент верхнего уровня</li>
+</ol>
+
+</section>
+<section class="letter">
+	<h1>Тег "span"</h1>
+    <p>Страница о Теге "span"</p>
+</section>
+ <p><span class="letter">О</span>писание
+Тег "span" предназначен для определения строчных элементов документа. В отличие от блочных элементов, таких как "table", "p" или "div", с помощью тега "span" можно выделить часть информации внутри других тегов и установить для нее свой стиль. Например, внутри абзаца (тега "p") можно изменить цвет и размер первой буквы, если добавить начальный и конечный тег "span" и определить для него стиль текста. Чтобы не описывать каждый раз стиль внутри тега, можно выделить стиль во внешнюю таблицу стилей, а для тега добавить атрибут class или id с именем селектора.</p> 
+  <p>ссылка на сайт</p>
+ <!--Конец Блочные элементы-->
+
+ <!--Тег footer задаёт «подвал» сайта или раздела, в нём может располагаться имя автора, дата документа, контактная и правовая информация.-->
+<footer>Copyright Den Noga</footer>
+</html>
