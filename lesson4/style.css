@@ -1,0 +1,89 @@
+.menu {
+        font-size: 20px;
+        color: red;
+        background-color: yellow
+          } 
+.menu__title {
+              font-family: Open Sans;
+              font-size: 30px;
+              text-align: left;
+              font-weight: bold; 
+              color: red;
+                } 
+.theme {
+        font-family: Open Sans;
+        font-size: 20px;
+        text-align: left;
+        font-weight: bold; 
+        color: #C71585;
+          } 
+.theme__bg { background: #f4f4f4 }
+#menu1__list {
+              font-size: 25px;
+              color: green;
+              text-align: left;
+              text-transform: uppercase;
+                }
+#comment .Комментарии {background-color: green;}
+#comment .text {
+                 font-size: 20px;
+                 color: blue;
+                 text-align: right;
+                 background-color: #f5f4f0;
+                   }
+#comment .autorisation {
+                         font-size: 20px;
+                         color: blue;
+                         background-color: #f0f4f5;
+                           }
+#comment .tbg {background: #e5d4f0;}
+#comment .Отправить {background-color: blue;}
+#comment .Очистить {background-color: red;}
+ul li {text-transform: uppercase;}
+p.first a {
+            color: green;
+            font-size: 30px;
+              }
+p.first input {
+                color: blue;
+                font-size: 15px;
+                background-color: yellow;
+                text-align: center;
+                 }
+.theme.theme--bg {
+                   font-size: 20px;
+                   color: red;
+                   text-align: left;
+                   background-color: green;
+                     }
+.letter { 
+         font-family: serif;
+         position: relative; 
+         top: 5px; 
+           }
+.btn {
+       border-radius: 20px;
+       }
+.content {
+           width: 1000px;
+           margin: 20px auto;
+           border: 1px solid red;
+           text-align: center;
+           background: #f0f4f5;
+           }
+.content__Текст {
+                 font-size: 20px;
+                 color: red;
+                 background: yellow;
+                  }
+.content__button {
+                   padding: 10px; 15px;
+                   border-radius: 20px;
+                   }
+.content__button.content__button--Отправить {
+                                             background-color: green;
+                                              }
+.content__button.content__button--Очистить {
+                                            margin: 20px auto;
+                                            background-color: red;
+                                             }

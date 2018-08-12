@@ -3,6 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    
+    .menu {
+            font-size: 50px;
+            color: red;
+            text-align: left;
+             } 
+    .menu__title {
+                  font-family: Open Sans;
+                  font-size: 30px;
+                  text-align: left;
+                  font-weight: bold; 
+                  color: red;
+                   } 
+    #menu1__list {
+            font-size: 20px;
+            color: green;
+            text-align: left;
+            text-transform: uppercase;
+            }
+            ul li {text-transform: uppercase;}
+    </style>
 </head>
 <body>
 <form action="send.php" autocomplete="on" target="_self" name="opros" method="post" enctype="multipart/form-data" align="right">
@@ -13,10 +36,10 @@
   <header> 
         <div class="menu">
         <a href="index.html">
-        <h1>Главная>>></h1>
+        <h1 class="menu__title">Главная>>></h1>
         </a>
   </header>
-  <section class="menu">
+  <section class="menu" id="menu__list>
     <ul type="square">
     <li><a href="index1.html">Статьи</a></li>
     <li><a href="index2.html">Каталог</a></li>
