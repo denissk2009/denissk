@@ -1,0 +1,60 @@
+/*задание 1*/
+div.ex1 strong{font-size: 125%;}
+
+
+/*задание 2*/
+div.ex2 a, u, abbr {text-decoration: none; color: black}
+div.ex2 p {quotes: none;}
+div.ex2 em, i {font-style: normal;}
+div.ex2 strong {font-weight: normal;}
+div.ex2 q{quotes: none;}
+div.ex2 small, big {font-size: initial;}
+div.ex2 mark{background: white;}
+div.ex2 code, kbd {font-family: times new roman; font-size: initial;}
+
+
+/*задание 3*/
+div.ex3{
+border-style: dotted;
+height: 400px;
+border-color: #FF1493;
+background-color: rgb(211, 211, 211);
+background-image: url("Paserbsky.jpg");
+background-position: right center;
+background-repeat: no-repeat;
+background-size: 20%;}
+
+
+/*задание 4*/
+div.ex4{border: solid #800080;
+height: 400px;
+background-image: url(Paserbsky.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+outline: 3px dashed #FFFAFA;
+outline-offset: -11px;}
+
+
+/*задание 5*/
+ul.list1{list-style-type: upper-roman;}
+ul.list2 {
+list-style-type: none;
+counter-reset:  item;
+text-indent: 5px;}
+ul.list2 li::before {
+content: counter(item) ') ';
+counter-increment: item;
+margin-left: -25px;
+padding-right: 5px;}
+
+
+/*задание 6*/
+ol.list1 {list-style-type: square;}
+
+ol.list2 {list-style-type: none;}
+ol.list2 {position: relative;}
+ol.list2 li::before {content: '*';
+position: absolute; margin-left: -18px; 
+padding-right: 5px;
+     }
